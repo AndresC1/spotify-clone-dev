@@ -5,7 +5,7 @@ import SearchLibrary from '../searchLibrary/searchLibrary'
 
 export default function LibraryComponent() {
   return (
-    <div className='w-full p-2 h-full rounded-lg flex-col flex justify-start items-start bg-[#121212] gap-2'>
+    <div className='w-full p-2 h-full rounded-lg flex-col flex justify-start items-start bg-[#121212] gap-2 overflow-y-auto'>
         <LinkBoxNavbar 
             id={3} 
             ruta='/library' 

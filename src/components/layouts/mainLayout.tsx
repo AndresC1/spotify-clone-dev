@@ -5,7 +5,7 @@ import MusicPlayer from '../../containers/MusicPlayer/musicPlayer'
 
 export default function MainLayout() {
   return (
-    <div className='flex justify-start items-start flex-col h-[100vh]'>
+    <div className='flex justify-start items-start flex-col h-[100vh] overflow-auto'>
       <div className='col-span-12 w-full h-full flex justify-start items-stretch'>
         <div className='min-w-[20rem] max-w-[30rem] w-full p-4'>
             <Navbar/>
